@@ -4,7 +4,8 @@ Este trabalho/prova tinha como objetivo listar e como principal pesquisar os alu
 exemplo: 
 
 medida_aluno alunos[] = {
-                        {"Daniel, 180, 80"}
+		{"Daniel", 180, 80},
+  		{"Aluno2", 170, 70}
 };
 
 E para que essas informações fossem validadas nesse array usei a funções
