@@ -39,22 +39,22 @@ struct medida_aluno {
 
 medida_aluno alunos[] = {
 		{"Daniel", 180, 80},
-        {"Gustavo", 169, 90},
-        {"Andre", 183, 92},
-        {"Felipe", 176, 67},
-        {"Davi", 166, 67},
-        {"Kaua", 182, 76},
-        {"Roveda", 185, 62},
-        {"Isa", 160, 63},
-        {"Vitor", 170, 40},
-        {"Jessica", 175, 50},
-        {"Joao", 165, 65},
-        {"Wilson", 167, 60},
-        {"Nicollas", 176, 76},
-        {"Kevin", 175, 65},
-        {"Jizele", 160, 55},
-        {"Pedro", 166, 52},
-        {"Mateus", 170, 65}
+        	{"Gustavo", 169, 90},
+        	{"Andre", 183, 92},
+        	{"Felipe", 176, 67},
+        	{"Davi", 166, 67},
+        	{"Kaua", 182, 76},
+        	{"Roveda", 185, 62},
+        	{"Isa", 160, 63},
+        	{"Vitor", 170, 40},
+	        {"Jessica", 175, 50},
+        	{"Joao", 165, 65},
+        	{"Wilson", 167, 60},
+        	{"Nicollas", 176, 76},
+        	{"Kevin", 175, 65},
+        	{"Jizele", 160, 55},
+        	{"Pedro", 166, 52},
+        	{"Mateus", 170, 65}
        
 };
 
@@ -95,7 +95,7 @@ string nome;
         
     }
 	if (encontrado == false){
- 			cout << endl << COR_VERMELHA << "Aluno não encontrado.\n" << endl;
+ 			cout << endl << COR_VERMELHA << "Aluno nÃ£o encontrado.\n" << endl;
 	} 
 	
 
@@ -132,11 +132,11 @@ void menu () {
 
 	cout << COR_VERDE<< "777";
 	cout << COR_VERDE << "\n\tMedidas dos Alunos SENAI\n" << endl;
-	cout << COR_BRANCO << "Opções:" << endl;
+	cout << COR_BRANCO << "OpÃ§Ãµes:" << endl;
     cout << COR_VERDE << "[1] Lista de Alunos do SENAI cadastrados " << COR_BRANCO << "(" << numAlunos << ")" << endl;
     cout << COR_VERDE <<"[2] Pesquisar aluno" << endl;
     cout << COR_AMARELO << "[0] Sair" << endl;
-    cout << COR_BRANCO << "Escolha uma opção: " << COR_VERDE;
+    cout << COR_BRANCO << "Escolha uma opÃ§Ã£o: " << COR_VERDE;
 
 }
 
@@ -188,7 +188,7 @@ int opcao;
             system("cls");
            
             cout << endl;
-            cout << COR_VERMELHA << "Opção inválida." << endl;
+            cout << COR_VERMELHA << "OpÃ§Ã£o invÃ¡lida." << endl;
 			cout << endl;
                
 		system("pause");
@@ -214,7 +214,7 @@ int opcao;
        
         system("cls");
        
-        	cout << COR_VERDE << "\nA vida é como um jogo de futebol, \nvocê precisa ter estratégia,\n habilidade e perseverança para vencer, \nassim como o Coritiba busca a "<< COR_BRANCO << "\nvitória em cada partida, e um \nprofessor do SENAI busca transmitir \nconhecimento e inspirar seus\n alunos a alcançar seus objetivos." << endl;
+        	cout << COR_VERDE << "\nA vida Ã© como um jogo de futebol, \nvocÃª precisa ter estratÃ©gia,\n habilidade e perseveranÃ§a para vencer, \nassim como o Coritiba busca a "<< COR_BRANCO << "\nvitÃ³ria em cada partida, e um \nprofessor do SENAI busca transmitir \nconhecimento e inspirar seus\n alunos a alcanÃ§ar seus objetivos." << endl;
         	cout << COR_VERDE << endl;
         
         system("pause");
